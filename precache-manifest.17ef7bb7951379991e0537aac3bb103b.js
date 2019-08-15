@@ -1,23 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07a82f281f3ea9660cf7af785cc0b28c",
+    "revision": "9db7a0e0da8ed4fd1697ce0f8da63ebe",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c12744b4c981e3b7d183",
-    "url": "/portfolio/static/css/main.0362679f.chunk.css"
+    "revision": "3f446ca7d92c1ade43f5",
+    "url": "/portfolio/static/css/main.482f9e67.chunk.css"
   },
   {
-    "revision": "2ac294f3d74826075c8a",
-    "url": "/portfolio/static/js/2.db7376f7.chunk.js"
+    "revision": "2add5178ed30807adc9c",
+    "url": "/portfolio/static/js/2.b8d2f7cf.chunk.js"
   },
   {
-    "revision": "c12744b4c981e3b7d183",
-    "url": "/portfolio/static/js/main.e40c1e35.chunk.js"
+    "revision": "3f446ca7d92c1ade43f5",
+    "url": "/portfolio/static/js/main.38237df9.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
+  },
+  {
+    "revision": "7b125bd43c559931ff7211555536450d",
+    "url": "/portfolio/static/media/apiScreen.7b125bd4.png"
+  },
+  {
+    "revision": "499a8e8dbdd297d35663e35bb3bdcbc0",
+    "url": "/portfolio/static/media/creasoukScreen.499a8e8d.png"
+  },
+  {
+    "revision": "5ba158edcc5179907d4004c438590d22",
+    "url": "/portfolio/static/media/dentalScreen.5ba158ed.png"
   },
   {
     "revision": "76d344f08412543c74ccd1fb2493d607",
@@ -26,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1c58ee19d1e2c38b29ae86f3174f2e4",
     "url": "/portfolio/static/media/insta.b1c58ee1.svg"
+  },
+  {
+    "revision": "c902151951cbfbc5e1c413da3d6a557b",
+    "url": "/portfolio/static/media/lifterScreen.c9021519.png"
   },
   {
     "revision": "4b475fb3f54b3e35daa04295ec48df4c",
