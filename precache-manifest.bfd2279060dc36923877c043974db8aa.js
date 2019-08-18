@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9db7a0e0da8ed4fd1697ce0f8da63ebe",
+    "revision": "b5db669ce11ab98b641ef5e2a0aff8ba",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3f446ca7d92c1ade43f5",
-    "url": "/portfolio/static/css/main.482f9e67.chunk.css"
+    "revision": "fe813b035d2f175d4e38",
+    "url": "/portfolio/static/css/main.0d5236c5.chunk.css"
   },
   {
-    "revision": "2add5178ed30807adc9c",
-    "url": "/portfolio/static/js/2.b8d2f7cf.chunk.js"
+    "revision": "2cb964d27be7fb667752",
+    "url": "/portfolio/static/js/2.5b6551fb.chunk.js"
   },
   {
-    "revision": "3f446ca7d92c1ade43f5",
-    "url": "/portfolio/static/js/main.38237df9.chunk.js"
+    "revision": "fe813b035d2f175d4e38",
+    "url": "/portfolio/static/js/main.f5c002fd.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/insta.b1c58ee1.svg"
   },
   {
+    "revision": "2f04bf9f3507aa0ea88d288db9daa41c",
+    "url": "/portfolio/static/media/learnScreen.2f04bf9f.png"
+  },
+  {
     "revision": "c902151951cbfbc5e1c413da3d6a557b",
     "url": "/portfolio/static/media/lifterScreen.c9021519.png"
   },
@@ -56,7 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mor.7e55bd54.svg"
   },
   {
+    "revision": "a4e14debfa59cdec0fe7b822aef58e92",
+    "url": "/portfolio/static/media/toursScreen.a4e14deb.png"
+  },
+  {
     "revision": "182d5ef4d173a3cd93897242a6fd56a5",
     "url": "/portfolio/static/media/twitter.182d5ef4.svg"
+  },
+  {
+    "revision": "d9d58e2090fab4a17d74a2b3fe6351d8",
+    "url": "/portfolio/static/media/vidjotScreen.d9d58e20.png"
   }
 ]);
