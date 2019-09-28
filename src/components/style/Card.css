@@ -1,0 +1,58 @@
+.AppScreen {
+    filter: grayscale(100%);
+}
+
+.Card {
+    box-shadow: 0 4px 8px 0 #353b48;
+    transition: 0.3s;
+    width: 30%;
+    margin-bottom: 2%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.Card span {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #f5f6fa;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    line-height: 100%;
+    
+}
+
+.Card:hover {
+    box-shadow: 0 4px 8px 0 #718093;  
+}
+
+.Card:hover .AppScreen {
+    filter: none;
+    filter: blur(1px);
+    opacity: 0.4;
+}
+
+.Card:hover span {
+    visibility: visible;
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+.Tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    color: #dcdde1;
+}
+
+@media screen and (max-width: 600px) {
+    .Card {
+        width: 100%;
+        margin-bottom: 5%; 
+    }
+}

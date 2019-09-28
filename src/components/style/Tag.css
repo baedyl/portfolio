@@ -1,0 +1,15 @@
+.Tag {
+    height: 50%;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #2f3640;
+    color: #dcdde1;
+    margin: 1%;
+    font-size: 70%;
+    
+}
+
+.Tag:hover {
+    background-color: #dcdde1;
+    color: #2f3640;
+}

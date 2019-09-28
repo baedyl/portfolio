@@ -1,0 +1,26 @@
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text {
+    width: 50%;
+    text-align: justify; 
+}
+
+a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+.flag {
+    width: 32px;
+    height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        width: 80%; 
+    }
+}

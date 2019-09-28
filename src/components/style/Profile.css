@@ -1,0 +1,6 @@
+.Profile-picture {
+    height: 40vmin;
+    pointer-events: none;
+    border-radius: 50%;
+    margin-top: 20px;
+}
