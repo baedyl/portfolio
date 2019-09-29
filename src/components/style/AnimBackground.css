@@ -1,6 +1,5 @@
 /* Background Animation */
 .area{
-  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100%;
@@ -25,14 +24,18 @@
     animation: animate 25s linear infinite;
     bottom: -150px;
   }
-  
+
   .circles li:nth-child(1){
     left: 25%;
     width: 80px;
     height: 80px;
     animation-delay: 0s;
+    background: #092b30;
   }
-  
+
+  .circles li:nth-child(1):hover{
+    background: #025654;
+  }
   
   .circles li:nth-child(2){
     left: 10%;
@@ -40,6 +43,11 @@
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
+    background: #025654;
+  }
+
+  .circles li:nth-child(2):hover{
+    background: #092b30;
   }
   
   .circles li:nth-child(3){
@@ -47,6 +55,11 @@
     width: 20px;
     height: 20px;
     animation-delay: 4s;
+    background: #00494c;
+  }
+
+  .circles li:nth-child(3):hover{
+    background: #18a871;
   }
   
   .circles li:nth-child(4){
@@ -55,6 +68,11 @@
     height: 60px;
     animation-delay: 0s;
     animation-duration: 18s;
+    background: #18a871;
+  }
+
+  .circles li:nth-child(4):hover{
+    background: #00494c;
   }
   
   .circles li:nth-child(5){
@@ -62,6 +80,11 @@
     width: 20px;
     height: 20px;
     animation-delay: 0s;
+    background: #bf1e1e;
+  }
+
+  .circles li:nth-child(5):hover{
+    background: #1d706d;
   }
   
   .circles li:nth-child(6){
@@ -69,6 +92,11 @@
     width: 110px;
     height: 110px;
     animation-delay: 3s;
+    background: #1d706d;
+  }
+
+  .circles li:nth-child(6):hover{
+    background: #bf1e1e;
   }
   
   .circles li:nth-child(7){
@@ -76,6 +104,11 @@
     width: 150px;
     height: 150px;
     animation-delay: 7s;
+    background: #f3f3e7;
+  }
+
+  .circles li:nth-child(7):hover{
+    background: #03a9f4;
   }
   
   .circles li:nth-child(8){
@@ -84,6 +117,11 @@
     height: 25px;
     animation-delay: 15s;
     animation-duration: 45s;
+    background: #03a9f4;
+  }
+
+  .circles li:nth-child(8):hover{
+    background: #f3f3e7;
   }
   
   .circles li:nth-child(9){
@@ -93,6 +131,10 @@
     animation-delay: 2s;
     animation-duration: 35s;
   }
+
+  .circles li:nth-child(9):hover{
+    background: #52ab62;
+  }
   
   .circles li:nth-child(10){
     left: 85%;
@@ -101,8 +143,10 @@
     animation-delay: 0s;
     animation-duration: 11s;
   }
-  
-  
+
+  .circles li:nth-child(10):hover{
+    background: #044654;
+  }
   
   @keyframes animate {
   

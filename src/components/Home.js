@@ -1,10 +1,12 @@
 import React from 'react';
+import AnimBackground from './AnimBackgroung';
 
 import './style/Home.css';
 
 const Home = () => {
     return(  
         <section>
+            
              <h1 className="NameTitle">
                 &#123; Emmanuel Dylan &#125;
             </h1>
@@ -17,7 +19,8 @@ const Home = () => {
                         I love coding!
                     </span>
                 </div>
-            </div>    
+            </div>
+            <AnimBackground/>    
         </section>          
     );
 }
