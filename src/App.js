@@ -9,11 +9,12 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Projects from './components/Projects';
 import RespNavBar from './components/RespNavBar';
+import AnimBackground from './components/AnimBackgroung';
 
 function App() {
   return (
     <HashRouter basename="/">
-      
+      <AnimBackground/>
       <div className="App">
         <RespNavBar/>
         
