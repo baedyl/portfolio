@@ -6,21 +6,17 @@ import Home from './components/Home';
 import About from './components/About';
 import Dev404 from './components/Dev404';
 import Contact from './components/Contact';
-import NavLink from './components/NavLink';
 import NotFound from './components/NotFound';
 import Projects from './components/Projects';
+import RespNavBar from './components/RespNavBar';
 
 function App() {
   return (
     <HashRouter basename="/">
       
       <div className="App">
-        <nav>
-          <NavLink text="Home" link="/" />
-          <NavLink text="About" link="/about" />
-          <NavLink text="Projects" link="/projects" />
-          <NavLink text="Contact" link="/contact" />
-        </nav>
+        <RespNavBar/>
+        
         
         <header className="App-header">
           <Switch>

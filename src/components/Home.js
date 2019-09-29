@@ -17,23 +17,8 @@ const Home = () => {
                         I love coding!
                     </span>
                 </div>
-            </div>
-            <div className="area" >
-                <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </section>    
-        
+            </div>    
+        </section>          
     );
 }
 

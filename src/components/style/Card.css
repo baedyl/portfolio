@@ -3,12 +3,11 @@
 }
 
 .Card {
-    box-shadow: 0 4px 8px 0 #353b48;
+    box-shadow: 0 4px 4px -4px #00adb5;
     transition: 0.3s;
     width: 30%;
     margin-bottom: 2%;
     position: relative;
-    border-radius: 10px;
 }
 
 .Card span {
@@ -24,7 +23,7 @@
 }
 
 .Card:hover {
-    box-shadow: 0 4px 8px 0 #718093;  
+    box-shadow: 0 4px 4px 0 #00adb5;  
 }
 
 .Card:hover .AppScreen {
