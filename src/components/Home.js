@@ -6,7 +6,9 @@ import './style/Home.css';
 const Home = () => {
     return(  
         <section>
-            
+            <div>
+                <AnimBackground/>
+            </div> 
              <h1 className="NameTitle">
                 &#123; Emmanuel Dylan &#125;
             </h1>
@@ -20,7 +22,8 @@ const Home = () => {
                     </span>
                 </div>
             </div>
-            <AnimBackground/>    
+
+                   
         </section>          
     );
 }
