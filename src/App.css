@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 html {
   overflow-x: hidden;
-  font-family: Roboto;
+  font-family: 'Orbitron', 'serif';
 }
 
 .App {
