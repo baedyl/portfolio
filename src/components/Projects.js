@@ -54,6 +54,13 @@ const Projects = () => {
             description: 'A simple web app to take and edit video ideas ;)',
             link: '/dev404',
             appScreen: 'vidjot'
+        },
+        {
+            id: 8,
+            title: 'My portfolio',
+            description: 'A simple static web app built in React',
+            link: '/dev404',
+            appScreen: 'portfolio'
         }
     ];
 

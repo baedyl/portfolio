@@ -10,6 +10,7 @@ import CreasoukScreen from '../../src/images/creasoukScreen.png';
 import LearningScreen from '../../src/images/learnScreen.png';
 import VidjotScreen from '../../src/images/vidjotScreen.png';
 import ToursScreen from '../../src/images/toursScreen.png';
+import PortfolioScreen from '../../src/images/portfolioScreen.png';
 import './style/Card.css';
 
 const Card = (props) => {
@@ -98,6 +99,18 @@ const Card = (props) => {
                 <Tag text="Heroku"></Tag>
                 <Tag text="Node.js"></Tag>
                 <Tag text="MongoDB"></Tag>
+            </div>
+        </Link>;
+    } else if(props.screen === 'portfolio') {
+        card = 
+        <Link to={ props.link } style={{color:'#eeeeee'}}>
+            <img src={ PortfolioScreen } alt="ScreenShot of portfolio" className="AppScreen" style={{width:'100%'}}></img>
+            <span>{ props.title }</span>
+            <div className="Tags">
+                <Tag text="React"></Tag>
+                <Tag text="Github Pages"></Tag>
+                <Tag text="JSX"></Tag>
+                <Tag text="Static"></Tag>
             </div>
         </Link>;
     } else {
