@@ -49,6 +49,17 @@
     color: #dcdde1;
 }
 
+/*button {
+    background: green;
+    color:'#eeeeee';
+    border: none;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}*/
+
 @media screen and (max-width: 600px) {
     .Card {
         width: 100%;
