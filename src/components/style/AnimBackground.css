@@ -20,7 +20,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #ffa45c;
     animation: animate 25s linear infinite;
     bottom: -150px;
   }
@@ -30,7 +30,7 @@
     width: 80px;
     height: 80px;
     animation-delay: 0s;
-    background: #092b30;
+    background: #f05a28;
   }
 
   .circles li:nth-child(1):hover{
@@ -43,11 +43,11 @@
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
-    background: #025654;
+    background: #a35638;
   }
 
   .circles li:nth-child(2):hover{
-    background: #092b30;
+    background: #e08f62;
   }
   
   .circles li:nth-child(3){
@@ -55,11 +55,11 @@
     width: 20px;
     height: 20px;
     animation-delay: 4s;
-    background: #00494c;
+    background: #9dab86;
   }
 
   .circles li:nth-child(3):hover{
-    background: #18a871;
+    background: #ffa258;
   }
   
   .circles li:nth-child(4){
@@ -72,7 +72,7 @@
   }
 
   .circles li:nth-child(4):hover{
-    background: #00494c;
+    background: #1a3263;
   }
   
   .circles li:nth-child(5){
@@ -80,7 +80,7 @@
     width: 20px;
     height: 20px;
     animation-delay: 0s;
-    background: #bf1e1e;
+    background: #c95501;
   }
 
   .circles li:nth-child(5):hover{
@@ -92,11 +92,11 @@
     width: 110px;
     height: 110px;
     animation-delay: 3s;
-    background: #1d706d;
+    background: #ff6d24;
   }
 
   .circles li:nth-child(6):hover{
-    background: #bf1e1e;
+    background: #a02a63;
   }
   
   .circles li:nth-child(7){
@@ -104,11 +104,11 @@
     width: 150px;
     height: 150px;
     animation-delay: 7s;
-    background: #f3f3e7;
+    background: #28544b;
   }
 
   .circles li:nth-child(7):hover{
-    background: #03a9f4;
+    background: #acbd86;
   }
   
   .circles li:nth-child(8){
