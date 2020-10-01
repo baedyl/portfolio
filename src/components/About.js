@@ -25,8 +25,7 @@ const About = () => {
                 <a className="external" href="http://unice.fr/en" target="blank"> UNICE</a> <img src={ FrFlag } alt="French Flag" className="flag"/>
                 &nbsp;(Masters MIAGE) where I studied Computer Science and Networks. 
                 I had the opportunity to collaborate with companies like <a className="external" href="https://creasouk.com/" target="blank">Creasouk</a>, 
-                <a className="external" href="http://www.koerigg.com/" target="blank"> Koerigg Enterprises</a> and most recently
-                <a className="external" href="http://www.kaokeb.com/" target="blank"></a> which helped me gaining
+                <a className="external" href="http://www.koerigg.com/" target="blank"> Koerigg Enterprises</a> and most recently <a className="external" href="http://www.kaokeb.com/" target="blank">Kaokeb</a> which helped me gaining
                 experience in a production environment and general software development best practices.
             </section>
         </div>
