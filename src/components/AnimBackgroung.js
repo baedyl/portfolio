@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Particles from 'react-particles-js';
+import ParticlesBg from './ParticlesBg';
 import './style/AnimBackground.css';
 
-const AnimBackground = () => {
-    return(
-        <div className="area" >
-            <Particles/>    
-            <ul className="circles">
+const AnimBackground = (props) => {
+    let bg = ''
+    if (props.home) {
+        bg = <ul className="circles">
                 <li></li>
                 <li>
                     <Link className="" to="/projects">
@@ -30,6 +29,13 @@ const AnimBackground = () => {
                 <li></li>
                 <li></li>
             </ul>
+    }
+    return(
+        <div className="area" >
+            <div className="circles">
+                <ParticlesBg/>
+            </div>
+            { bg }
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import AnimBackground from './AnimBackgroung';
 import Card from './Card';
 import ModalView from './ModalView';
 
@@ -95,6 +95,7 @@ class Projects extends Component {
         return(
             <main>
                 <section>
+                    <AnimBackground />
                     <h3>My Projects Showcase :)</h3>
                     <div className="Container">
                         { elems }          
