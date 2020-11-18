@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Particles from 'react-particles-js';
 import './style/AnimBackground.css';
 
 const AnimBackground = () => {
     return(
         <div className="area" >
+            <Particles/>    
             <ul className="circles">
                 <li></li>
                 <li>
