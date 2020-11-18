@@ -1,5 +1,6 @@
 .NameTitle {
   margin-top: 0px;
+  margin-bottom: 24px;
 }
 
 .animate {
@@ -9,12 +10,21 @@
 }
   
 div .wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   height: 100%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: xx-large;
 }
 
 .FirstWord {
   animation: showup 7s infinite;
+  margin-bottom: 12px;
 }
 
 .CatchPhrase {
