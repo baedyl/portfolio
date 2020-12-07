@@ -95,12 +95,14 @@ class Projects extends Component {
         return(
             <main>
                 <section>
-                    <AnimBackground />
-                    <h3>My Projects Showcase :)</h3>
+                    <div className="title">
+                        <h3>My Projects Showcase :)</h3>
+                    </div>
                     <div className="Container">
                         { elems }          
                     </div>
                     <h3>And many more... ;)</h3>
+                    <AnimBackground />
                 </section>
                 <ModalView show={ this.state.show } handleClose={ this.hideModal }>
                     <p>Modal</p>
