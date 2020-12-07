@@ -1,5 +1,5 @@
 footer {
-    position: static;
+    position: relative;
 }
 
 .icon {
@@ -14,10 +14,6 @@ nav a:hover {
 
 
 @media only screen and (min-width: 200px) and (max-width: 670px) {
-    footer {
-        position: static;
-    }
-
     .icon {
         max-width:320px;
         max-height:56px;
