@@ -1,7 +1,14 @@
 .Container {
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
+}
+
+.modal {
+    z-index: 3;
 }
 
 @media screen and (max-width: 600px) {

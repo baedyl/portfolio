@@ -3,10 +3,9 @@
 }
 
 .Card {
-    box-shadow: 0 4px 4px -4px #00adb5;
     transition: 0.3s;
-    width: 30%;
-    margin-bottom: 2%;
+    width: 20%;
+    margin: 2% 2%;
     position: relative;
 }
 
@@ -19,20 +18,19 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     line-height: 100%;
-    
 }
 
 .Card:hover {
-    box-shadow: 0 4px 4px 0 #00adb5;  
+    box-shadow: 2px 2px #00adb5;  
 }
 
 .Card:hover .AppScreen {
-    filter: none;
     filter: blur(1px);
-    opacity: 0.4;
 }
 
 .Card:hover span {
+    color: #00595db9;
+    font-weight: bold;
     visibility: visible;
     -webkit-transition: all 0.2s linear;
        -moz-transition: all 0.2s linear;
