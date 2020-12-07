@@ -6,7 +6,7 @@ import './style/Profile.css';
 
 const Profile = () => {
     return(
-        <div>
+        <div className="profile">
             <Link className="navLink" to="/about">
                 <img src={ ProfileImage } className="Profile-picture" alt="Portrait of me" />
             </Link>
