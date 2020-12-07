@@ -33,7 +33,9 @@ const AnimBackground = (props) => {
     return(
         <div className="area" >
             <div className="circles">
-                <ParticlesBg/>
+                <div className="particles">
+                    <ParticlesBg/>
+                </div>
             </div>
             { bg }
         </div>

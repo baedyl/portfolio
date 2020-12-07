@@ -11,7 +11,6 @@ import FrFlag from '../../src/images/fr.png';
 const About = () => {
     return(
         <section>
-            <AnimBackground /> 
             <div className="bio">
                 <Profile />
                 <section className="text">
@@ -29,6 +28,7 @@ const About = () => {
                     experience in a production environment and general software development best practices.
                 </section>
             </div>
+            <AnimBackground /> 
         </section>
     );
 }
