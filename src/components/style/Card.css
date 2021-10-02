@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 600px) {
     .Card {
-        width: 100%;
+        width: 96%;
         margin-bottom: 5%; 
     }
 }
