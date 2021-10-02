@@ -53,5 +53,8 @@ footer {
     .icon {
         margin-top: 100px;
     }
+    .contact-msg {
+      margin: auto 10px;
+    }
 }
 
