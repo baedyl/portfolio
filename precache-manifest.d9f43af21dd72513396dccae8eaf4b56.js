@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0156fd23324674130650c2bfa54f44df",
+    "revision": "5a306f33f2397e80e180cb18024d0770",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1f6dab862abe98e92a8e",
-    "url": "/portfolio/static/css/main.5b6e3963.chunk.css"
+    "revision": "08543797ae68413b78a2",
+    "url": "/portfolio/static/css/main.774b6271.chunk.css"
   },
   {
-    "revision": "cb7d9e3867bad0bf6ed7",
-    "url": "/portfolio/static/js/2.826fb206.chunk.js"
+    "revision": "f880c7aa0f421ac58809",
+    "url": "/portfolio/static/js/2.2314d906.chunk.js"
   },
   {
-    "revision": "1f6dab862abe98e92a8e",
-    "url": "/portfolio/static/js/main.27e9c8a5.chunk.js"
+    "revision": "08543797ae68413b78a2",
+    "url": "/portfolio/static/js/main.86128930.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b125bd43c559931ff7211555536450d",
     "url": "/portfolio/static/media/apiScreen.7b125bd4.png"
+  },
+  {
+    "revision": "dfbef9fd0f107f98f747919ebcc7105e",
+    "url": "/portfolio/static/media/celoScreen.dfbef9fd.png"
   },
   {
     "revision": "499a8e8dbdd297d35663e35bb3bdcbc0",
@@ -56,12 +60,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/me.370b5754.jpg"
   },
   {
+    "revision": "82835bbeca6ab203abb8cb1dd43eb0ee",
+    "url": "/portfolio/static/media/mgbScreen.82835bbe.png"
+  },
+  {
     "revision": "7e55bd5403440cc1d3e17652420571e3",
     "url": "/portfolio/static/media/mor.7e55bd54.svg"
   },
   {
+    "revision": "58db33cdc4dcf8440c16b8c90a3c0fa0",
+    "url": "/portfolio/static/media/newsappScreen.58db33cd.png"
+  },
+  {
     "revision": "2eadb888714359034fa73ccb5d71fa2f",
     "url": "/portfolio/static/media/portfolioScreen.2eadb888.png"
+  },
+  {
+    "revision": "4b1dbb16ced32358c699c792378908b2",
+    "url": "/portfolio/static/media/scalinflowScreen.4b1dbb16.png"
   },
   {
     "revision": "a4e14debfa59cdec0fe7b822aef58e92",
