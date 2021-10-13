@@ -40,23 +40,13 @@
 }
 
 .Tags {
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-between;
     color: #dcdde1;
 }
-
-/*button {
-    background: green;
-    color:'#eeeeee';
-    border: none;
-    padding: 15px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: large;
-}*/
 
 @media screen and (max-width: 600px) {
     .Card {
