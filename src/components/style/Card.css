@@ -56,4 +56,9 @@
     .Card .AppScreen {
         filter: blur(1px);
     }
+    .Card span {
+        color: #00595db9;
+        font-weight: bold;
+        visibility: visible;
+    }
 }
