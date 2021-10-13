@@ -81,6 +81,34 @@ class Projects extends Component {
                 description: 'A simple static web app built in React',
                 link: '/dev404',
                 appScreen: 'portfolio'
+            },
+            {
+                id: 9,
+                title: 'Scalinflow',
+                description: 'Sales outreach SaaS',
+                link: '/dev404',
+                appScreen: 'scalinflow'
+            },
+            {
+                id: 10,
+                title: 'MyGoodBoss',
+                description: "A manager's virtual assistant",
+                link: '/dev404',
+                appScreen: 'mgb'
+            },
+            {
+                id: 11,
+                title: 'Coach Celo',
+                description: 'Beauty services landing page',
+                link: '/dev404',
+                appScreen: 'celo'
+            },
+            {
+                id: 12,
+                title: 'News App',
+                description: 'Display and filter recent headlines from newsapi.org',
+                link: '/dev404',
+                appScreen: 'newsapp'
             }
         ];
     
