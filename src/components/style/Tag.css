@@ -1,6 +1,6 @@
 .Tag {
     background: #2f3640;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 3px 3px 3px;
     color: #dcdde1;
     display: inline-block;
     height: 26px;
@@ -26,9 +26,6 @@
 
 .Tag::after {
     background: #ebeae8;
-    border-bottom: 13px solid transparent;
-    border-left: 10px solid #2f3640;
-    border-top: 13px solid transparent;
     content: '';
     position: absolute;
     right: 0;
@@ -38,8 +35,4 @@
 .Tag:hover {
     background-color: crimson;
     color: white;
-}
-
-.Tag:hover::after {
-    border-left-color: crimson; 
 }
