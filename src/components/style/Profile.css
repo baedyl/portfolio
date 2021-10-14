@@ -32,5 +32,6 @@
 @media only screen and (min-width: 200px) and (max-width: 670px) {
     .Profile-picture {
         margin-top: 50px;
+		margin-bottom: 30px;
     }
   }
