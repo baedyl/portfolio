@@ -9,9 +9,9 @@ const RespNavBar = () => {
             <Link className="button" to="/">
                 Home
             </Link>
-            <Link className="button" to="/about">
+            {/* <Link className="button" to="/about">
                 About
-            </Link>
+            </Link> */}
             <Link className="button" to="/projects">
                 Projects
             </Link>

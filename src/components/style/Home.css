@@ -12,7 +12,7 @@
 div .wrapper {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 15%;
   height: 100%;
   transform: translate(-50%, -50%);
   display: flex;
