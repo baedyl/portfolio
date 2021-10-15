@@ -9,7 +9,7 @@ const CloseButton = styled.button`
   padding: 0.25em 0.5em;
   border: 2px solid #00adb5;
   border-radius: 3px;
-  position: absolute;
+  position: fixed;
   right: 7%;
   top: 7%;
   z-index: 100;
