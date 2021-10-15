@@ -5,9 +5,9 @@ import Footer from './Footer';
 const Contact = () => {
     return(
         <div>
-            <AnimBackground /> 
             <h3 className="contact-msg">Feel free to interact with me on any of these platforms!</h3>
             <Footer></Footer>
+            <AnimBackground /> 
         </div>
         
     );
