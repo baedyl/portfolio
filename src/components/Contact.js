@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <h3 className="contact-msg">Feel free to interact with me on any of these platforms!</h3>
             <Footer></Footer>
-            <AnimBackground /> 
+            <AnimBackground home="true" /> 
         </div>
         
     );

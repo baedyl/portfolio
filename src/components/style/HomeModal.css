@@ -53,6 +53,7 @@ a {
 
 .card:hover {
   transform: rotate(0);
+  border: 10px solid #00adb5;
 }
 
 .card:hover .service-desc{
