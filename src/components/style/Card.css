@@ -48,6 +48,18 @@
     color: #dcdde1;
 }
 
+@media screen and (max-width: 1300px) {
+    .Card {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Card {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .Card {
         width: 96%;

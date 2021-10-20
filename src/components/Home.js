@@ -4,10 +4,6 @@ import IdeaButton from './IdeaButton';
 import Profile from './Profile';
 import ModalView from './HomeModal';
 
-import CamerFlag from '../../src/images/cmr.png';
-import MorFlag from '../../src/images/mor.svg';
-import FrFlag from '../../src/images/fr.png';
-
 import './style/Home.css';
 import './style/About.css';
 

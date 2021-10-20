@@ -9,7 +9,7 @@ const CloseButton = styled.button`
   padding: 0.25em 0.5em;
   border: 2px solid #00adb5;
   border-radius: 3px;
-  position: absolute;
+  position: fixed;
   right: 7%;
   top: 7%;
   z-index: 100;
@@ -32,9 +32,8 @@ const ModalView = ({ handleClose, show }) => {
       <section className="cards-wrapper">
         <div className="card-grid-space">
           <div className="num">01</div>
-          <a
+          <div
             className="card"
-            href="#"
             style={{background: "url('https://images.unsplash.com/photo-1599481238789-da6cf5b4a8a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80')"}}
           >
             <div>
@@ -51,13 +50,12 @@ const ModalView = ({ handleClose, show }) => {
                 <div className="tag">SEO</div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div className="card-grid-space">
           <div className="num">02</div>
-          <a
+          <div
             className="card"
-            href="#"
             style={{background: "url('https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80')"}}
           >
             <div>
@@ -72,13 +70,12 @@ const ModalView = ({ handleClose, show }) => {
                 <div className="tag">NoSQL</div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div className="card-grid-space">
           <div className="num">03</div>
-          <a
+          <div
             className="card"
-            href="#"
             style={{background: "url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1147&q=80')"}}
           >
             <div>
@@ -92,7 +89,7 @@ const ModalView = ({ handleClose, show }) => {
                 <div className="tag">Tailwind</div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </section>
     </div>

@@ -127,7 +127,7 @@ class Projects extends Component {
                         { elems }          
                     </div>
                     <h3>And many more... ;)</h3>
-                    <AnimBackground />
+                    <AnimBackground home="true" />
                 </section>
                 <ModalView show={ this.state.show } handleClose={ this.hideModal } className="modal">
                     <p>Modal</p>
