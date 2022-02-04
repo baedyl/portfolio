@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07c028f04fb12ec79851ad39fdde3e04",
+    "revision": "4907f1c3456e5d6db1331b76ea40a484",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "55e629b282ae0195dac0",
-    "url": "/portfolio/static/css/main.da6734e5.chunk.css"
+    "revision": "5b68fa92b0ebab01956d",
+    "url": "/portfolio/static/css/main.08b2c596.chunk.css"
   },
   {
-    "revision": "5b37d12591470e12f52f",
-    "url": "/portfolio/static/js/2.2f271840.chunk.js"
+    "revision": "9c5de29a705df04ee0fe",
+    "url": "/portfolio/static/js/2.fa01a2dd.chunk.js"
   },
   {
-    "revision": "55e629b282ae0195dac0",
-    "url": "/portfolio/static/js/main.61b0d0f6.chunk.js"
+    "revision": "5b68fa92b0ebab01956d",
+    "url": "/portfolio/static/js/main.becb10a6.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -68,12 +68,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mgbScreen.82835bbe.png"
   },
   {
+    "revision": "c2c2c4281e093b82644519ff3aef4519",
+    "url": "/portfolio/static/media/mhabil.c2c2c428.png"
+  },
+  {
     "revision": "58db33cdc4dcf8440c16b8c90a3c0fa0",
     "url": "/portfolio/static/media/newsappScreen.58db33cd.png"
   },
   {
+    "revision": "09468e749dadfa9399b15f5e73e0d56d",
+    "url": "/portfolio/static/media/pharmaflix.09468e74.png"
+  },
+  {
     "revision": "2eadb888714359034fa73ccb5d71fa2f",
     "url": "/portfolio/static/media/portfolioScreen.2eadb888.png"
+  },
+  {
+    "revision": "c9080957b2bc8063537c27ef1fc40518",
+    "url": "/portfolio/static/media/redirect.c9080957.svg"
   },
   {
     "revision": "4b1dbb16ced32358c699c792378908b2",
