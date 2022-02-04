@@ -5,15 +5,14 @@ import ModalView from './ModalView';
 
 import './style/Projects.css';
 class Projects extends Component {
-//const Projects = () => {
+
     state = { show: false };
 
-    showModal = () => {
-        this.setState(
-            {
-                show: true
-            }
-        );
+    showModal = (link) => {
+        console.log(link);
+        if (link) {
+            window.open(`${link}`, '_newtab')
+        }
     }
 
     hideModal = () => {
@@ -28,52 +27,53 @@ class Projects extends Component {
         const projects = [
             {
                 id: 1,
-                title: 'App for a dental cabinet management',
-                description: 'A desktop app built with Electron for the management of a dental care facility',
-                link: '/dev404',
-                appScreen: 'dental'
+                title: 'Scalinflow',
+                description: 'Sales outreach SaaS',
+                link: 'https://app.scalinflow.com/',
+                appScreen: 'scalinflow'
             },
             {
                 id: 2,
-                title: 'Admin Panel for Food Delivery',
-                description: 'Building of a web application to help restaurant manage their food delivery',
-                link: '/dev404',
-                appScreen: 'lifterLife'
+                title: 'MyGoodBoss',
+                description: "A manager's virtual assistant",
+                link: 'https://mygoodboss.com/#/',
+                appScreen: 'mgb'
             },
             {
                 id: 3,
-                title: 'Sample API and Client interface',
-                description: 'Node.js API for restaurants with a client for CRUD operations',
-                link: '/dev404',
-                appScreen: 'restaurants'
+                title: 'Coach Celo',
+                description: 'Beauty services landing page',
+                link: 'https://baedyl.github.io/celobeauty/',
+                appScreen: 'celo'
             },
             {
                 id: 4,
                 title: 'E-Commerce Website Theme',
                 description: 'Creation of a complete theme for an online boutique',
-                link: '/dev404',
+                link: 'https://creasouk.com/',
                 appScreen: 'creasouk'
             },
             {
                 id: 5,
-                title: 'Travel Agency Website',
-                description: 'Dynamic Website to promote a travel agency and process reservations',
-                link: '/dev404',
-                appScreen: 'tours'
+                title: 'Essential oils',
+                description: 'Static Website to showcase essential oils',
+                link: 'https://peaceful-hawking-c98816.netlify.app/',
+                appScreen: 'mhabil'
+                
             },
             {
                 id: 6,
-                title: 'Online Learning Platform',
-                description: 'Building of an online learning platform',
-                link: '/dev404',
-                appScreen: 'learn'
+                title: 'News App',
+                description: 'Display and filter recent headlines from newsapi.org',
+                link: 'https://github.com/baedyl/vue3-news-app',
+                appScreen: 'newsapp'
             },
             {
                 id: 7,
-                title: 'Video Ideas App',
-                description: 'A simple web app to take and edit video ideas ;)',
-                link: '/dev404',
-                appScreen: 'vidjot'
+                title: 'Pharmaflix',
+                description: 'A web app to manage advertising in french pharmacies',
+                link: 'https://app.pharmaflix.live/login',
+                appScreen: 'pharmaflix'
             },
             {
                 id: 8,
@@ -84,31 +84,45 @@ class Projects extends Component {
             },
             {
                 id: 9,
-                title: 'Scalinflow',
-                description: 'Sales outreach SaaS',
-                link: '/dev404',
-                appScreen: 'scalinflow'
+                title: 'Admin Panel for Food Delivery',
+                description: 'Building of a web application to help restaurant manage their food delivery',
+                link: 'https://lifter.life/',
+                appScreen: 'lifterLife'
             },
             {
                 id: 10,
-                title: 'MyGoodBoss',
-                description: "A manager's virtual assistant",
+                title: 'Video Ideas App',
+                description: 'A simple web app to take and edit video ideas ;)',
                 link: '/dev404',
-                appScreen: 'mgb'
+                appScreen: 'vidjot'
             },
             {
                 id: 11,
-                title: 'Coach Celo',
-                description: 'Beauty services landing page',
-                link: '/dev404',
-                appScreen: 'celo'
+                title: 'Sample API and Client interface',
+                description: 'Node.js API for restaurants with a client for CRUD operations',
+                link: 'https://github.com/baedyl/client-vue',
+                appScreen: 'restaurants'
             },
             {
                 id: 12,
-                title: 'News App',
-                description: 'Display and filter recent headlines from newsapi.org',
+                title: 'Online Learning Platform',
+                description: 'Building of an online learning platform',
                 link: '/dev404',
-                appScreen: 'newsapp'
+                appScreen: 'learn'
+            },
+            {
+                id: 13,
+                title: 'App for a dental cabinet management',
+                description: 'A desktop app built with Electron for the management of a dental care facility',
+                link: 'https://github.com/baedyl/cabinet-dentaire',
+                appScreen: 'dental'
+            },
+            {
+                id: 14,
+                title: 'Travel Agency Website',
+                description: 'Dynamic Website to promote a travel agency and process reservations',
+                link: 'https://github.com/baedyl/tours',
+                appScreen: 'tours'
             }
         ];
     
@@ -116,7 +130,7 @@ class Projects extends Component {
             projects.map((project) =>
                     
                 <Card className="Card" key={ project.id } title={ project.title } description={ project.description } 
-                    link={ project.link } screen={ project.appScreen } showModal={ this.showModal }>
+                    link={ project.link } screen={ project.appScreen } showModal={ () => this.showModal(project.link) }>
                 </Card>   
                      
             );

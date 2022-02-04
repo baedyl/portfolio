@@ -15,6 +15,9 @@ import CeloScreen from '../../src/images/celoScreen.png';
 import ScalinflowScreen from '../../src/images/scalinflowScreen.png';
 import MgbScreen from '../../src/images/mgbScreen.png';
 import NewsappScreen from '../../src/images/newsappScreen.png';
+import MhabilScreen from '../../src/images/mhabil.png';
+import PharmaflixScreen from '../../src/images/pharmaflix.png';
+import RedirectIcon from '../../src/images/redirect.svg';
 
 import './style/Card.css';
 
@@ -24,6 +27,7 @@ const Card = (props) => {
         card = 
         <div>
             <img src={ DentalScreen } alt="ScreenShot of the App" className="AppScreen" style={{width:'100%'}}></img>
+            <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             <span>{ props.title }</span>
             <div className="Tags">
                 <Tag text="Axios"></Tag>
@@ -44,6 +48,7 @@ const Card = (props) => {
                 <Tag text="Material"></Tag>
                 <Tag text="MySQL"></Tag>
                 <Tag text="PHP"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if (props.screen === 'restaurants') {
@@ -57,6 +62,7 @@ const Card = (props) => {
                 <Tag text="Rest"></Tag>
                 <Tag text="Selenium"></Tag>
                 <Tag text="Vue.js"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if (props.screen === 'creasouk') {
@@ -70,6 +76,7 @@ const Card = (props) => {
                 <Tag text="MySQL"></Tag>
                 <Tag text="PHP"></Tag>
                 <Tag text="Bootstrap"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if (props.screen === 'learn') {
@@ -79,8 +86,9 @@ const Card = (props) => {
             <span>{ props.title }</span>
             <div className="Tags">
                 <Tag text="Bootstrap"></Tag>
-                <Tag text="JEE"></Tag>
+                <Tag text="Java EE"></Tag>
                 <Tag text="MongoDB"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if (props.screen === 'vidjot') {
@@ -93,6 +101,7 @@ const Card = (props) => {
                 <Tag text="Heroku"></Tag>
                 <Tag text="Node.js"></Tag>
                 <Tag text="MongoDB"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if (props.screen === 'tours') {
@@ -105,6 +114,7 @@ const Card = (props) => {
                 <Tag text="Heroku"></Tag>
                 <Tag text="Node.js"></Tag>
                 <Tag text="MongoDB"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if(props.screen === 'portfolio') {
@@ -117,6 +127,7 @@ const Card = (props) => {
                 <Tag text="Github Pages"></Tag>
                 <Tag text="JSX"></Tag>
                 <Tag text="Static"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if(props.screen === 'scalinflow') {
@@ -127,10 +138,10 @@ const Card = (props) => {
             <div className="Tags">
                 <Tag text="Nuxt"></Tag>
                 <Tag text="Tailwind"></Tag>
-                <Tag text="Gitlab"></Tag>
                 <Tag text="Node.js"></Tag>
                 <Tag text="GraphQL"></Tag>
                 <Tag text="Cypress"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if(props.screen === 'mgb') {
@@ -142,7 +153,8 @@ const Card = (props) => {
                 <Tag text="Vue"></Tag>
                 <Tag text="Laravel"></Tag>
                 <Tag text="Element UI"></Tag>
-                <Tag text="Zeplin"></Tag>
+                <Tag text="MySQL"></Tag>
+                <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
             </div>
         </div>;
     } else if(props.screen === 'celo') {
@@ -156,6 +168,7 @@ const Card = (props) => {
                 <Tag text="Nuxt"></Tag>
                 <Tag text="Static"></Tag>
             </div>
+            <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
         </div>;
     } else if(props.screen === 'newsapp') {
         card = 
@@ -165,9 +178,36 @@ const Card = (props) => {
             <div className="Tags">
                 <Tag text="Vue3"></Tag>
                 <Tag text="Vite"></Tag>
-                <Tag text="API"></Tag>
+                <Tag text="Rest API"></Tag>
                 <Tag text="Cypress"></Tag>
             </div>
+            <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
+        </div>;
+    } else if(props.screen === 'mhabil') {
+        card = 
+        <div>
+            <img src={ MhabilScreen } alt="ScreenShot of mhabil app" className="AppScreen" style={{width:'100%'}}></img>
+            <span>{ props.title }</span>
+            <div className="Tags">
+                <Tag text="Nuxt"></Tag>
+                <Tag text="Vue"></Tag>
+                <Tag text="Tailwind"></Tag>
+                <Tag text="Netlify"></Tag>
+            </div>
+            <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
+        </div>;
+    } else if(props.screen === 'pharmaflix') {
+        card = 
+        <div>
+            <img src={ PharmaflixScreen } alt="ScreenShot of Pharmaflix app" className="AppScreen" style={{width:'100%'}}></img>
+            <span>{ props.title }</span>
+            <div className="Tags">
+                <Tag text="Vue"></Tag>
+                <Tag text="Element UI"></Tag>
+                <Tag text="Laravel"></Tag>
+                <Tag text="Rest API"></Tag>
+            </div>
+            <img src={ RedirectIcon } alt="Redirection Icon" className="ExternalLink"></img>
         </div>;
     } else {
         card = 
